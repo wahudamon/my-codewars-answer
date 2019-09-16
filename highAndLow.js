@@ -15,3 +15,4 @@ function highAndLow(numbers) {
 }
 
 highAndLow('1 2 3')
+//return "3 1"
