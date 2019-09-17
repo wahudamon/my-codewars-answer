@@ -8,11 +8,11 @@
 
 //My Answer
 function highAndLow(numbers) {
-  var arrayOfNumber = numbers.split(" ")
-  var max = Math.max.apply(null, arrayOfNumber)
-  var min = Math.min.apply(null, arrayOfNumber)
-  console.log(max + " " + min)
+  var arrayOfNumber = numbers.split(" ");
+  var max = Math.max.apply(null, arrayOfNumber);
+  var min = Math.min.apply(null, arrayOfNumber);
+  console.log(max + " " + min);
 }
 
-highAndLow('1 2 3')
+highAndLow('1 2 3');
 //return "3 1"
